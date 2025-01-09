@@ -50,7 +50,10 @@ html{
     background-image: url("./images/DALL·E 2025-01-07 19.34.57 - A minimalist website background for a developer, with a dark theme featuring glowing abstract circuit patterns and subtle digital code streams. The de.webp");
     background-attachment: fixed;
     background-size: cover;
+    position: relative;
+    z-index: -1;
   }
+  
   
 
 
@@ -226,6 +229,16 @@ html{
     border-image-slice: 1;
     
     animation: gradientAnimation 6s infinite alternate ;
+
+    transition: transform 0.7s ease, opacity 0.7s ease;
+    position: fixed;
+}
+
+
+
+.header.shrink section {
+  transform: scale(0.9); /* Rétrécit légèrement */
+  opacity: 0.8; /* Ajoute une légère transparence */
 }
 
 
@@ -282,7 +295,14 @@ html{
   margin: auto;
   width :34px;
   height: 55px;
+  transition: transform 0.7s ease, opacity 0.7s ease;
 }
+
+.header.shrink .scroll-downs {
+  transform: scale(0.6); /* Rétrécit légèrement */
+  opacity: 0.5; /* Ajoute une légère transparence */
+}
+
 .mousey {
   width: 3px;
   padding: 10px 15px;
@@ -304,6 +324,7 @@ html{
   animation-iteration-count: infinite;
   
 }
+
 @keyframes scroll {
   0% { opacity: 0; }
   10% { transform: translateY(0); opacity: 1; }
@@ -358,6 +379,11 @@ main > article{
     margin: 2em;
 }
 
+main {
+  background-color: white;
+  z-index: 100;
+  padding-top: 20px;
+}
 
 
 /*==========================presentation-container=============================*/
@@ -370,6 +396,7 @@ main > article{
   border-radius: 15px; /* Ajout de coins arrondis */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Ajout d'une ombre pour un effet de profondeur */
   margin: 20px auto;
+  margin-top: 0;
   max-width: 800px; /* Limite la largeur maximale pour une meilleure lisibilité */
 }
 

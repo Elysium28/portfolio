@@ -40,7 +40,7 @@
 
     
 
-    <main>
+    <main class="main-content">
         <section class="presentation-container">
             <h1>Qui suis-je ?</h1>
             <p>Étudiant en première année de <strong>BUT informatique</strong>, passionné par ce domaine depuis mon enfance, je souhaite en faire <strong>mon activité professionnelle</strong>.</p>
@@ -138,65 +138,7 @@
         </div>
     </footer>
 
-    <script>
-        // Sélectionne le header et la section suivante
-        const headerSection = document.querySelector('.header');
-        const nextSection = document.querySelector('main');
-        let isScrolling = false; // Variable pour bloquer les événements de défilement pendant l'animation
-    
-        // Fonction pour défiler vers une section donnée
-        function scrollToSection(section) {
-            if (section) {
-                isScrolling = true; // Bloque les autres événements
-                section.scrollIntoView({ behavior: 'smooth' });
-    
-                // Débloque les événements après la durée de l'animation
-                setTimeout(() => {
-                    isScrolling = false;
-                }, 800); // Ajustez la durée en fonction de la fluidité souhaitée
-            }
-        }
-    
-        // Gestion du scroll
-        const onWheel = (event) => {
-            if (isScrolling) return; // Ignore les événements si une animation est en cours
-    
-            const currentScroll = window.scrollY; // Position actuelle de défilement
-            const headerHeight = headerSection.offsetHeight; // Hauteur du header
-    
-            // Vérifie si l'utilisateur est au niveau du header
-            if (currentScroll === 0 && event.deltaY > 0) {
-                // Scroll vers le bas : aller à la section suivante
-                scrollToSection(nextSection);
-                event.preventDefault(); // Empêche le comportement par défaut
-            } else if (currentScroll <= headerHeight && event.deltaY+100 < 0) {
-                // Scroll vers le haut : revenir au header
-                scrollToSection(headerSection);
-                event.preventDefault(); // Empêche le comportement par défaut
-            }
-        };
-    
-        // Ajoute l'écouteur d'événement avec passive: false
-        window.addEventListener('wheel', onWheel, { passive: false });
-    
-        // Gestion de l'appui sur la barre espace
-        window.addEventListener('keydown', (event) => {
-            if (currentScroll === 0) {
-            if (isScrolling) return; // Ignore les événements si une animation est en cours
-    
-            const currentScroll = window.scrollY; // Position actuelle de défilement
-    
-            if (currentScroll === 0 && event.code === 'Space') {
-                event.preventDefault(); // Empêche le comportement par défaut
-                scrollToSection(nextSection); // Scroll vers le bas
-            }
-        }
-        });
-    </script>
-    
-    
-    
-  
-  
+
+<script src="script.js"></script>
 </body>
 </html>
