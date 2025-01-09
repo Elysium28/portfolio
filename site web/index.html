@@ -1,150 +1,202 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
-	<head>
-	    	<meta charset="utf-8" >
-	    	<title>Matthew LEO</title>
-	    	<meta name="description" content="" >
-	    	<meta name="keywords" content="" >
-			<link rel="stylesheet" type="text/css" href="style.css">
-	</head>
-    <body>
-        <header class="header">
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de Matthew LEO, étudiant en BUT informatique à l'IUT de Lannion">
+    <meta name="keywords" content="Portfolio, Étudiant, Informatique, BUT, IUT Lannion">
+    <meta name="author" content="Matthew LEO">
+    <title>Portfolio de Matthew LEO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div>
+            <section>
+                <div>
+                    <h1>LEO Matthew</h1>
+                    <h2>Étudiant en BUT informatique<br>à l'IUT de Lannion</h2>
+                </div>
+                <img id="photo_profil" src="images/photo_profil" alt="Photo de profil de Matthew LEO" title="Matthew LEO">
+            </section>
+        </div>
+        <div class="scroll-downs">
+            <div class="mousey">
+              <div class="scroller"></div>
+            </div>
+        </div>
+    </header>
+
+
+    <nav class="nav_bar_container">
+        <ul>
+            <li><a href="#parcour">Mon Parcours</a></li>
+            <li><a href="#outils">Mes Outils</a></li>
+            <li><a href="#competence">Mes Compétences</a></li>
+        </ul>
+    </nav>
+
+    
+
+    <main>
+        <section class="presentation-container">
+            <h1>Qui suis-je ?</h1>
+            <p>Étudiant en première année de <strong>BUT informatique</strong>, passionné par ce domaine depuis mon enfance, je souhaite en faire <strong>mon activité professionnelle</strong>.</p>
+            <a href="./files/CV_Matthew_LEO.pdf" download>
+                <button class="pulse">Télécharger mon CV</button>
+            </a>
+        </section>
+
+        <section class="parcour-container" id="parcour">
+            <h2>Mon Parcours</h2>
+            <ul class="timeline">
+                <li>
+                    <div class="timeline-content">
+                        <h3>Baccalauréat</h3>
+                        <p>Obtention de mon baccalauréat général avec les spécialités mathématiques et sciences de l'ingénieur.</p>
+                        <img src="./images/couronne.png" alt="Icône Baccalauréat">
+                    </div>
+                    <span class="timeline-date">Juillet 2022</span>
+                </li>
+                <li>
+                    <div class="timeline-content">
+                        <h3>IUT de Lannion</h3>
+                        <p>Rentrée en BUT informatique à l'IUT de Lannion.</p>
+                        <img src="./images/Logo_IUT_Lannion.png" alt="Logo IUT Lannion">
+                        <a href="https://iut-lannion.univ-rennes.fr/informatique" target="_blank" rel="noopener">Voir le programme</a>
+                    </div>
+                    <span class="timeline-date">Septembre 2022</span>
+                </li>
+                <li>
+                    <div class="timeline-content">
+                        <h3>Alternance</h3>
+                        <p>Obtention de mon alternance dans le groupe Orange Business.</p>
+                        <img src="./images/Orange_logo.png" alt="Logo Orange Business">
+                    </div>
+                    <span class="timeline-date">Mai 2023</span>
+                </li>
+                <li>
+                    <div class="timeline-content">
+                        <h3>École d'Ingénieur</h3>
+                        <p>Peut-être une entrée en école d'ingénieur à la fin de mon BUT ?</p>
+                        <img src="./images/ENSSAT_Lannion.png" alt="Logo ENSSAT">
+                    </div>
+                    <span class="timeline-date">Septembre 2025</span>
+                </li>
+            </ul>
+        </section>
+
+        <section class="compétences-container" id="outils">
+            <h2>Ma Boîte à Outils</h2>
             <div>
                 <section>
-                    <div>
-                        <h1>LEO Matthew</h1>
-                        <h2>Etudiant en BUT informatique<br>à l'IUT de Lannion</h2>
-                          
+                    <h3>Systèmes</h3>
+                    <div class="tools">
+                        <img src="./images/bash.png" alt="Logo Bash">
+                        <img src="./images/Moby-logo.png" alt="Logo Docker">
+                        <img src="./images/Git-Logo-2Color.png" alt="Logo Git">
+                        <img src="./images/phpmyadmin-icon-5605.png" alt="Logo PhpMyAdmin">
                     </div>
-                    <img id="photo_profil" src="images/photo_profil" alt="l'image ne s'affiche pas" title="photo_profil">
                 </section>
-            </div>                  
-        </header>
-        <main>
-            <header class="nav_bar_container">
-                <nav>
-                    <ul>
-                        <li><a href="#parcour">Mon Parcours</a></li>
-                        <li><a href="#outils">Mes Outils</a></li>
-                        <li><a href="#competence">Mes Compétences</a></li>
-                    </ul>
-                </nav>
-            </header>
-            <article class ="presentation-container">
-                <h1>Qui suis-je ?</h1>
-                <p>Etudiant en première année de <strong>BUT informatique</strong>, je suis passionné par ce domaine depuis mon enfance et souhaite en faire <strong>mon activité professionelle</strong>.</p>
-                <a href="./files/CV Matthew LEO.pdf" download>
-                    <button class="pulse">Télécharger mon CV !</button>
-                  </a>                  
-            </article>
-            <article class="parcour-container" id="parcour">
-                <h2>Mon parcours</h2>
-                <p><em>"Un dessin vaut milles mots"</em></p>
-
-
-                <ul class="timeline">
-                    <li>
-                      <div class="timeline-content">
-                        <h3>Baccalauréat</h3>
-                        <p>Obtention de mon baccalauréat général<br>avec les spécialités mathématiques et Sciences de l'ingénieur.</p>
-                        <img src="./images/couronne.png"/>
-                      </div>
-                      <div class="timeline-date">
-                        <span> juillet 2022</span>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="timeline-content">
-                        <h3>IUT de Lannion</h3>
-                        <p>Rentrée en BUT informatique à l'IUT de Lannion</p>
-                        <img src="./images/Logo_IUT_Lannion.png"/>
-                        <a href="https://iut-lannion.univ-rennes.fr/informatique">Voir le programme</a>
-                      </div>
-                      <div class="timeline-date">
-                        <span>Septembre 2022</span>
-                      </div>
-                    </li>
-                    <!-- Ajoutez d'autres éléments <li> pour les autres événements -->
-                      <li>
-                      <div class="timeline-content">
-                        <h3>Alternance</h3>
-                        <p>Obtention de mon Alternance dans le groupe Orange Business.</p>
-                        <img src="./images/Orange_logo.png"/>
-                      </div>
-                      <div class="timeline-date">
-                        <span>Mai 2023</span>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="timeline-content">
-                        <h3>École d'Ingénieur</h3>
-                        <p>Peut-être ue entrée en école d'ingénieur à la fin de mon BUT ?</p>
-                        <img src="./images/ENSSAT Lannion.png"/>
-                      </div>
-                      <div class="timeline-date">
-                        <span>septembre 2025</span>
-                      </div>
-                    </li>
-                  </ul>
-            </article>
-
-            <div class="coupure"></div>
-
-            <article class="compétences-container" id="outils">
-                <h2>Ma boite à outils</h2>
-
-                <div>
-                  <section class="system-container">
-                    <h3>System</h3>
-                    <div>
-                      <img src="./images/bash.png">
-                      <img src="./images/Moby-logo.png">
-                      <img src="./images/Git-Logo-2Color.png">
-                      <img src="./images/phpmyadmin-icon-5605.png">
+                <section>
+                    <h3>Front-end</h3>
+                    <div class="tools">
+                        <img src="./images/HTML.png" alt="Logo HTML">
+                        <img src="./images/CSS.png" alt="Logo CSS">
+                        <img src="./images/javascript-39400.png" alt="Logo JavaScript">
                     </div>
-
-                  </section>
-
-                  <section class="front-end-container">
-                      <h3>Front-end</h3>
-                      <div>
-                        <img src="./images/HTML.png">
-                        <img src="./images/CSS.png">
-                        <br>
-                        <img src="./images/javascript-39400.png">
-                        <img src="./images/JavaFX_Logo.png">
-                      </div>
-                  </section>
-                </div>
-                <section class="back-end-container">
-                  <h3>Back-end</h3>
-                  <div>
-                    <img src="./images/new-php-logo.png">
-                    <img src="./images/python.png">
-                    <img src="./images/Java.png">
-                    <img src="./images/C.png">
-                    <img src="./images/PostgreSQL_logo.3colors.120x120.png">
-                    <img src="./images/logo-mysql-170x115.png">
-                  </div>
-                  </figure>
                 </section>
-            </article>
+                <section>
+                    <h3>Back-end</h3>
+                    <div class="tools">
+                        <img src="./images/new-php-logo.png" alt="Logo PHP">
+                        <img src="./images/python.png" alt="Logo Python">
+                        <img src="./images/Java.png" alt="Logo Java">
+                        <img src="./images/C.png" alt="Logo C">
+                        <img src="./images/PostgreSQL_logo.png" alt="Logo PostgreSQL">
+                    </div>
+                </section>
+            </div>
+        </section>
 
-            <article class="competence_iut_container" id="competence">
-              <h2>Compétences</h2>
-              <p>Le <strong>programme de l'IUT</strong> nous permet de développer <strong>6 compétences</strong> grâce à différents <strong>projets</strong>...</p>
-              <a href="./competences.html">
-                <button class="pulse">Découvrir les projets</button>
-              </a>
-            </article>
+        <section class="competence_iut_container" id="competence">
+            <h2>Mes Compétences</h2>
+            <p>Le <strong>programme de l'IUT</strong> nous permet de développer <strong>6 compétences</strong> grâce à différents <strong>projets</strong>.</p>
+            <a href="./competences.html">
+                <button class="pulse">Découvrir les Projets</button>
+            </a>
+        </section>
+    </main>
 
-        </main>
-        <footer>
-          <div class="footer-container">
-              <a href="mailto:matthew@etudiant.univ-rennes.fr">Contactez-moi</a>
-              <hr>
-              <p>© Copyright - Matthew LEO - Touts droits réservés </p>
-          </div>
-      </footer>
-    </body>
+    <footer>
+        <div class="footer-container">
+            <a href="mailto:matthew@etudiant.univ-rennes.fr">Contactez-moi</a>
+            <hr>
+            <p>&copy; 2025 Matthew LEO - Tous droits réservés</p>
+        </div>
+    </footer>
+
+    <script>
+        // Sélectionne le header et la section suivante
+        const headerSection = document.querySelector('.header');
+        const nextSection = document.querySelector('main');
+        let isScrolling = false; // Variable pour bloquer les événements de défilement pendant l'animation
+    
+        // Fonction pour défiler vers une section donnée
+        function scrollToSection(section) {
+            if (section) {
+                isScrolling = true; // Bloque les autres événements
+                section.scrollIntoView({ behavior: 'smooth' });
+    
+                // Débloque les événements après la durée de l'animation
+                setTimeout(() => {
+                    isScrolling = false;
+                }, 800); // Ajustez la durée en fonction de la fluidité souhaitée
+            }
+        }
+    
+        // Gestion du scroll
+        const onWheel = (event) => {
+            if (isScrolling) return; // Ignore les événements si une animation est en cours
+    
+            const currentScroll = window.scrollY; // Position actuelle de défilement
+            const headerHeight = headerSection.offsetHeight; // Hauteur du header
+    
+            // Vérifie si l'utilisateur est au niveau du header
+            if (currentScroll === 0 && event.deltaY > 0) {
+                // Scroll vers le bas : aller à la section suivante
+                scrollToSection(nextSection);
+                event.preventDefault(); // Empêche le comportement par défaut
+            } else if (currentScroll <= headerHeight && event.deltaY+100 < 0) {
+                // Scroll vers le haut : revenir au header
+                scrollToSection(headerSection);
+                event.preventDefault(); // Empêche le comportement par défaut
+            }
+        };
+    
+        // Ajoute l'écouteur d'événement avec passive: false
+        window.addEventListener('wheel', onWheel, { passive: false });
+    
+        // Gestion de l'appui sur la barre espace
+        window.addEventListener('keydown', (event) => {
+            if (currentScroll === 0) {
+            if (isScrolling) return; // Ignore les événements si une animation est en cours
+    
+            const currentScroll = window.scrollY; // Position actuelle de défilement
+    
+            if (currentScroll === 0 && event.code === 'Space') {
+                event.preventDefault(); // Empêche le comportement par défaut
+                scrollToSection(nextSection); // Scroll vers le bas
+            }
+        }
+        });
+    </script>
+    
+    
+    
+  
+  
+</body>
 </html>

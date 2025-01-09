@@ -34,7 +34,7 @@ html{
     left: 0;
     right: 0;
     z-index: 1;
-    background-image: url(./images/vue-de-programme-de-lecture-de-code-de-html-de-site-web-sur-le-fond-blanc-24331527.jpg);
+    background-image: url("./images/DALL·E 2025-01-07 19.34.57 - A minimalist website background for a developer, with a dark theme featuring glowing abstract circuit patterns and subtle digital code streams. The de.webp");
     background-attachment: fixed;
     background-size: cover;
 }
@@ -47,26 +47,187 @@ html{
     left: 0;
     right: 0;
     z-index: 1;
-    background-image: url(./images/vue-de-programme-de-lecture-de-code-de-html-de-site-web-sur-le-fond-blanc-24331527.jpg);
+    background-image: url("./images/DALL·E 2025-01-07 19.34.57 - A minimalist website background for a developer, with a dark theme featuring glowing abstract circuit patterns and subtle digital code streams. The de.webp");
     background-attachment: fixed;
     background-size: cover;
   }
   
 
-.header section{
-    width: 50%;
+
+  @keyframes gradientAnimation {
+    0% {
+        border-image-source: linear-gradient(45deg, #7b1fa2, #ff4081, #2196f3);
+    }
+    2% {
+        border-image-source: linear-gradient(45deg, #8223aa, #ff4783, #2a90f5);
+    }
+    4% {
+        border-image-source: linear-gradient(45deg, #8927b2, #ff4f85, #2d98f6);
+    }
+    6% {
+        border-image-source: linear-gradient(45deg, #9030ba, #ff5787, #309df7);
+    }
+    8% {
+        border-image-source: linear-gradient(45deg, #9738c2, #ff608a, #33a2f8);
+    }
+    10% {
+        border-image-source: linear-gradient(45deg, #9e40ca, #ff688c, #3697f9);
+    }
+    12% {
+        border-image-source: linear-gradient(45deg, #a548d2, #ff708f, #3a8bf9);
+    }
+    14% {
+        border-image-source: linear-gradient(45deg, #ac50da, #ff7991, #3e7ffa);
+    }
+    16% {
+        border-image-source: linear-gradient(45deg, #b258e2, #ff8194, #426dfa);
+    }
+    18% {
+        border-image-source: linear-gradient(45deg, #b861ea, #ff8996, #4562fb);
+    }
+    20% {
+        border-image-source: linear-gradient(45deg, #bf69f2, #ff9299, #4957fb);
+    }
+    22% {
+        border-image-source: linear-gradient(45deg, #c571fa, #ff9a9b, #4c4bfc);
+    }
+    24% {
+        border-image-source: linear-gradient(45deg, #ca7bf9, #ffa39e, #503ffc);
+    }
+    26% {
+        border-image-source: linear-gradient(45deg, #ce84f8, #ffaba0, #5424fd);
+    }
+    28% {
+        border-image-source: linear-gradient(45deg, #d18cf7, #ffb3a3, #5718fd);
+    }
+    30% {
+        border-image-source: linear-gradient(45deg, #d495f6, #ffbba5, #5b0dfd);
+    }
+    32% {
+        border-image-source: linear-gradient(45deg, #d79ef5, #ffc3a8, #5f03fd);
+    }
+    34% {
+        border-image-source: linear-gradient(45deg, #daabf4, #ffcbaa, #6201fc);
+    }
+    36% {
+        border-image-source: linear-gradient(45deg, #ddaff3, #ffd2ad, #6501fb);
+    }
+    38% {
+        border-image-source: linear-gradient(45deg, #e0b4f2, #ffcea7, #6902fb);
+    }
+    40% {
+        border-image-source: linear-gradient(45deg, #e3b9f1, #ffc3a0, #6c03fa);
+    }
+    42% {
+        border-image-source: linear-gradient(45deg, #e5bdf0, #ffb89a, #7005f9);
+    }
+    44% {
+        border-image-source: linear-gradient(45deg, #e8c2ee, #ffad94, #7306f9);
+    }
+    46% {
+        border-image-source: linear-gradient(45deg, #eac7ec, #ffa18d, #7608f8);
+    }
+    48% {
+        border-image-source: linear-gradient(45deg, #edcbe9, #ff9687, #790af7);
+    }
+    50% {
+        border-image-source: linear-gradient(45deg, #efcfe6, #ff8b80, #7c0df7);
+    }
+    52% {
+        border-image-source: linear-gradient(45deg, #f1d3e3, #ff807a, #7f0ff6);
+    }
+    54% {
+        border-image-source: linear-gradient(45deg, #f4d6e0, #ff7573, #8211f5);
+    }
+    56% {
+        border-image-source: linear-gradient(45deg, #f6dadd, #ff6a6d, #8413f4);
+    }
+    58% {
+        border-image-source: linear-gradient(45deg, #f8ddd9, #ff5f66, #8716f4);
+    }
+    60% {
+        border-image-source: linear-gradient(45deg, #fae1d6, #ff5460, #8a18f3);
+    }
+    62% {
+        border-image-source: linear-gradient(45deg, #fce5d3, #ff4a59, #8d1af2);
+    }
+    64% {
+        border-image-source: linear-gradient(45deg, #fde8cf, #ff3f53, #901cf2);
+    }
+    66% {
+        border-image-source: linear-gradient(45deg, #ffeccc, #ff344c, #931ff1);
+    }
+    68% {
+        border-image-source: linear-gradient(45deg, #ffefc9, #ff2946, #9521f0);
+    }
+    70% {
+        border-image-source: linear-gradient(45deg, #fff2c5, #ff1f40, #9823f0);
+    }
+    72% {
+        border-image-source: linear-gradient(45deg, #fff5c2, #ff143a, #9b26ef);
+    }
+    74% {
+        border-image-source: linear-gradient(45deg, #fff8bf, #ff0933, #9d28ee);
+    }
+    76% {
+        border-image-source: linear-gradient(45deg, #fffbbb, #ff002d, #a02bee);
+    }
+    78% {
+        border-image-source: linear-gradient(45deg, #fffeb8, #f90027, #a32ded);
+    }
+    80% {
+        border-image-source: linear-gradient(45deg, #fef8b5, #f20021, #a52fec);
+    }
+    82% {
+        border-image-source: linear-gradient(45deg, #fdf2b2, #eb001b, #a832ec);
+    }
+    84% {
+        border-image-source: linear-gradient(45deg, #fcecb0, #e40015, #aa34eb);
+    }
+    86% {
+        border-image-source: linear-gradient(45deg, #fbe6ad, #dd000f, #ad36ea);
+    }
+    88% {
+        border-image-source: linear-gradient(45deg, #fae0aa, #d60009, #af39ea);
+    }
+    90% {
+        border-image-source: linear-gradient(45deg, #f9d9a7, #cf0003, #b13be9);
+    }
+    92% {
+        border-image-source: linear-gradient(45deg, #f8d3a4, #c80000, #b43de8);
+    }
+    94% {
+        border-image-source: linear-gradient(45deg, #f7cda1, #c10000, #b63fe8);
+    }
+    96% {
+        border-image-source: linear-gradient(45deg, #f6c79e, #ba0000, #b841e7);
+    }
+    98% {
+        border-image-source: linear-gradient(45deg, #f5c19b, #b20000, #ba43e6);
+    }
+    100% {
+        border-image-source: linear-gradient(45deg, #f4bb98, #ab0000, #bc45e6);
+    }
+}
+
+.header section {
+    width: 60%;
     height: auto;
     display: flex;
     flex-direction: row-reverse;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     backdrop-filter: blur(10px);
     border-radius: 25px;
-    border: 10px double rgba(228, 140, 26, 0.856);
+    border: 10px double transparent;
+    background-color: rgba(0, 0, 0, 0.5); /* Ajout d'un fond semi-transparent pour améliorer la lisibilité */
+    padding: 20px; /* Ajout de padding pour un meilleur espacement */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Ajout d'une ombre pour un effet de profondeur */
+    border-image-slice: 1;
     
-    
-    
+    animation: gradientAnimation 6s infinite alternate ;
 }
+
 
 .header > div{
     height: 100%;
@@ -76,18 +237,21 @@ html{
     
 }
 
-.header section > div{
-    display: flex;
-    flex-direction: column;
-    margin-right: 4em;
-    
+.header section > div {
+  display: flex;
+  flex-direction: column;
+  margin-right: 4em;
+  color: #fff; /* Changement de la couleur du texte pour un meilleur contraste */
 }
 
-.header h1{
-    font-size: 4em;
-    margin-bottom: 0;
-    font-family: 'quicksand-bold';
+
+.header h1 {
+  font-size: 4em;
+  margin-bottom: 0;
+  color: #fff; /* Changement de la couleur du texte pour un meilleur contraste */
 }
+
+
 .header h2{
     text-align: center;
     font-size: 2em;
@@ -109,91 +273,137 @@ html{
 
 /*=========================animation flèche=========================*/
 
-
+.scroll-downs {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: -80%;
+  left: 0;
+  margin: auto;
+  width :34px;
+  height: 55px;
+}
+.mousey {
+  width: 3px;
+  padding: 10px 15px;
+  height: 45px;
+  border: 5px solid #ffffff;
+  border-radius: 25px;
+  opacity: 0.75;
+  box-sizing: content-box;
+  
+}
+.scroller {
+  width: 5px;
+  height: 15px;
+  border-radius: 25%;
+  background-color: #ffffff;
+  animation-name: scroll;
+  animation-duration: 2.2s;
+  animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+  animation-iteration-count: infinite;
+  
+}
+@keyframes scroll {
+  0% { opacity: 0; }
+  10% { transform: translateY(0); opacity: 1; }
+  90% { transform: translateY(15px); opacity: 0.5;}
+  100% { transform: translateY(3px); opacity: 0;}
+}
 
 
 /*===============================nav bar===========================*/
 
-.nav_bar_container{
-    margin: 0;
-    position:sticky;
-    top:0;
-    background-color: white;
-    border: 1px grey;
-    border-style: solid;
-    z-index:100;
-    
+
+.nav_bar_container {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Fond semi-transparent pour un effet moderne */
+  backdrop-filter: blur(10px); /* Flou d'arrière-plan pour un effet de profondeur */
+  z-index: 1000; /* Assurez-vous que la barre de navigation reste au-dessus des autres éléments */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ajout d'une ombre pour un effet de profondeur */
 }
 
-
-.nav_bar_container ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+.nav_bar_container ul {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
-.nav_bar_container ul >li{
-    margin: 0 3em;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    list-style-type: none;
+.nav_bar_container li {
+  margin: 0 15px;
 }
 
-.nav_bar_container li > a{
-    text-decoration: none;
-    color: black;
-    font-size: large;
+.nav_bar_container a {
+  text-decoration: none;
+  color: #fff; /* Couleur du texte en blanc pour un meilleur contraste */
+  font-size: 1.2em;
+  padding: 10px 15px;
+  transition: color 0.3s, background-color 0.3s; /* Transition pour un effet de survol fluide */
 }
 
+.nav_bar_container a:hover {
+  color: #ff4081; /* Couleur de survol */
+  background-color: rgba(255, 255, 255, 0.1); /* Fond de survol */
+}
 
 /*==========================main==============================================*/
 
+
+
 main > article{
     margin: 2em;
-    
 }
 
 
 
 /*==========================presentation-container=============================*/
 
-.presentation-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.presentation-container {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: rgba(0, 0, 0, 0.7); /* Fond semi-transparent pour un effet moderne */
+  color: #fff; /* Couleur du texte en blanc pour un meilleur contraste */
+  border-radius: 15px; /* Ajout de coins arrondis */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Ajout d'une ombre pour un effet de profondeur */
+  margin: 20px auto;
+  max-width: 800px; /* Limite la largeur maximale pour une meilleure lisibilité */
 }
 
 
-.presentation-container > h1{
-    justify-content: center;
-    font-size: 3em;
-    border-radius: 20px;
-    border: 10px groove rgba(228, 140, 26, 0.856);
-    padding: 15px;
-    font-family: 'quicksand-bold';
+
+.presentation-container h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #ff4081; /* Couleur du titre pour le faire ressortir */
 }
 
-.presentation-container > p{
-    text-align: center;
-    font-size: 1.5em;
-    width: 50em;
+.presentation-container p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-bottom: 30px;
 }
 
-.presentation-container strong{
-    font-family: 'quicksand-bold';
+.presentation-container a button.pulse {
+  background-color: #ff4081; /* Couleur du bouton */
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
-button {
-    margin-top: 1.5em;
-    background-color: #eb8d12;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    border-radius: 4px;
-    font-size: 1em;
-  }
+.presentation-container a button.pulse:hover {
+  transform: scale(1.1); /* Effet de zoom au survol */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Ajout d'une ombre au survol */
+}
   
+
   @keyframes pulse-animation {
     0% {
       transform: scale(1);
@@ -205,11 +415,48 @@ button {
       transform: scale(1);
     }
   }
+
+  @keyframes gradientButtonAnimation {
+    0% {
+      background: linear-gradient(45deg, #ff5100, #ff6a00);
+    }
+    10% {
+      background: linear-gradient(45deg, #ff5a00, #ff7200);
+    }
+    20% {
+      background: linear-gradient(45deg, #ff6400, #ff7900);
+    }
+    30% {
+      background: linear-gradient(45deg, #ff6e00, #ff8100);
+    }
+    40% {
+      background: linear-gradient(45deg, #ff7800, #ff8800);
+    }
+    50% {
+      background: linear-gradient(45deg, #ff8200, #ff9000);
+    }
+    60% {
+      background: linear-gradient(45deg, #ff8b00, #ff8700);
+    }
+    70% {
+      background: linear-gradient(45deg, #ff8400, #ff7f00);
+    }
+    80% {
+      background: linear-gradient(45deg, #ff7b00, #ff6d00);
+    }
+    90% {
+      background: linear-gradient(45deg, #ff7200, #ff5a00);
+    }
+    100% {
+      background: linear-gradient(45deg, #ff5100, #ff6a00);
+    }
+  }
   
   .pulse {
     animation-name: pulse-animation;
     animation-duration: 3s;
     animation-iteration-count: infinite;
+    animation: pulse-animation 3s infinite , gradientButtonAnimation 2s infinite;
   }
 
 /*=====================parcour-container====================================*/
