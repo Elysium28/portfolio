@@ -356,37 +356,34 @@ html{
   position: sticky;
   top: 0;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.8); /* Fond semi-transparent pour un effet moderne */
-  backdrop-filter: blur(10px); /* Flou d'arrière-plan pour un effet de profondeur */
-  z-index: 1000; /* Assurez-vous que la barre de navigation reste au-dessus des autres éléments */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ajout d'une ombre pour un effet de profondeur */
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
 }
 
 .nav_bar_container ul {
   display: flex;
   justify-content: center;
-  padding: 0;
   margin: 0;
+  padding: 0;
   list-style: none;
 }
 
 .nav_bar_container li {
-  margin: 0 15px;
+  margin: 0 20px;
 }
 
 .nav_bar_container a {
   text-decoration: none;
-  color: #fff; /* Couleur du texte en blanc pour un meilleur contraste */
+  color: #fff;
   font-size: 1.2em;
-  padding: 10px 15px;
-  transition: color 0.3s, background-color 0.3s; /* Transition pour un effet de survol fluide */
+  transition: color 0.3s;
 }
 
 .nav_bar_container a:hover {
-  color: #ff4081; /* Couleur de survol */
-  background-color: rgba(255, 255, 255, 0.1); /* Fond de survol */
+  color: #ff4081;
 }
-
 /*==========================main==============================================*/
 
 
@@ -540,7 +537,6 @@ main {
   padding: 90px 20px;
   background: linear-gradient(to bottom, #2a2a2a, rgba(42, 0, 59, 0.7), rgba(69, 0, 106, 0.5), rgba(93, 0, 160, 0.404), rgba(181, 113, 230, 0.3), rgba(240, 237, 241, 0.4));
   color: #fff;
-  border-radius: 15px;
   max-width: 100%;
   position: relative;
   overflow: hidden;
@@ -739,7 +735,7 @@ main {
 .tools img {
   width: 80px;
   height: 80px;
-  border-radius: 50%; /* Ajout de coins arrondis pour les images */
+  border-radius: 10px; /* Ajout de coins arrondis pour les images */
   background: #fff; /* Fond blanc pour les images */
   padding: 10px; /* Ajout de padding pour les images */
   transition: transform 0.3s, box-shadow 0.3s; /* Transition pour un effet de survol fluide */
@@ -823,39 +819,3 @@ hr {
   margin: 20px 0;
 }
 
-
-/*=====================page-compétence========================================*/
-
-.comp-container{
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  text-align: center;
-}
-
-.dcomp{
-  display: flex;
-  flex-direction: row;
-}
-
-.competence{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border-radius: 25px;
-  border: 10px double rgba(216, 187, 24, 0.856);
-  width: 50%;
-
-  margin: 2em;
-
-}
-
-.competence h2{
-  font-family: 'quicksand-bold';
-}
-
-
-.competence img {
-  width: 20%;
-}

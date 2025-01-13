@@ -36,6 +36,7 @@
   position: relative;
   margin: 1rem 3rem 1rem 1rem;
   clear: both;
+  background-color: #272727;
 }
 .timeline__item:after, .timeline__item:before {
   content: "";
@@ -66,6 +67,11 @@
     left: -10px;
     border-color: transparent transparent hotpink hotpink;
   }
+}
+
+.timeline-image{
+  width: 80px;
+  height: auto;
 }
 
 .timeline__item--year {

@@ -33,140 +33,86 @@
 
     <nav class="nav_bar_container">
         <ul>
-            <li><a href="#parcour">Mon Parcours</a></li>
-            <li><a href="#outils">Mes Outils</a></li>
-            <li><a href="#competence">Mes Compétences</a></li>
+            <li><a href="#presentation">Qui suis-je ?</a></li>
+            <li><a href="#timeline">Mon parcours</a></li>
+            <li><a href="#outils">Mes outils</a></li>
+            <li><a href="#competence">Mes projets</a></li>
         </ul>
     </nav>
 
     
 
     <main class="main-content">
-        <section class="presentation-container">
+        <section class="presentation-container" id="presentation">
             <h1>Qui suis-je ?</h1>
-            <p>Étudiant en première année de <strong>BUT informatique</strong>, passionné par ce domaine depuis mon enfance, je souhaite en faire <strong>mon activité professionnelle</strong>.</p>
+            <p>Étudiant en troisième année de <strong>BUT informatique</strong>, passionné par ce domaine depuis mon enfance, et ayant acquit une expérience professionnelle, je souhaite maintenant m'épanouir dans ce domaine et améliorer mes compétences par de nouvelles expériences.</p>
             <a href="./files/CV_Matthew_LEO.pdf" download>
                 <button class="pulse">Télécharger mon CV</button>
             </a>
         </section>
 
-        <section class="timeline-container">
+        <section class="timeline-container" id="timeline">
             <h2 class="timeline-title">Mon Parcours</h2>
-            <!-- <div class="timeline" id="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-content">
-                        <h3>Baccalauréat</h3>
-                        <p>Obtention de mon baccalauréat général avec les spécialités mathématiques et sciences de l'ingénieur.</p>
-                        <span class="timeline-date">Juillet 2022</span>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-content">
-                        <h3>IUT de Lannion</h3>
-                        <p>Rentrée en BUT informatique à l'IUT de Lannion.</p>
-                        <span class="timeline-date">Septembre 2022</span>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-content">
-                        <h3>Alternance</h3>
-                        <p>Obtention de mon alternance dans le groupe Orange Business.</p>
-                        <span class="timeline-date">Mai 2023</span>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-content">
-                        <h3>École d'Ingénieur</h3>
-                        <p>Peut-être une entrée en école d'ingénieur à la fin de mon BUT ?</p>
-                        <span class="timeline-date">Septembre 2025</span>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-content">
-                        <h3>Stage International</h3>
-                        <p>Participation à un projet informatique à l'étranger pour développer mes compétences.</p>
-                        <span class="timeline-date">2024</span>
-                    </div>
-                </div>
-            </div> -->
             <div class="timeline">
   
-                <h2 class="timeline__item timeline__item--year">1985</h2>
+                <h2 class="timeline__item timeline__item--year">2022</h2>
                 
                 <div class="timeline__item">
-                  <h3 class="timeline__title">Born</h3>
+                  <h3 class="timeline__title">Baccalauréat</h3>
+                  <p class="timeline-description">Obtention de mon baccalauréat général avec les spécialités mathématiques et Sciences de l'ingénieur.</p>
+                  <img class="timeline-image" src="./images/couronne.png" alt="l'image ne s'affiche pas"></img>
+                </div>
+
+                <div class="timeline__item">
+                    <h3 class="timeline__title">BUT informatique</h3>
+                    <p class="timeline-description">Rentrée en BUT informatique à l'IUT de Lannion</p>
+                    <img class="timeline-image" src="./images/logo-iut-lannion-dark.png" alt="l'image ne s'affiche pas"></img>
                 </div>
                 
-                <h2 class="timeline__item timeline__item--year">2003</h2>
-                
+                <h2 class="timeline__item timeline__item--year">2023</h2>
+
                 <div class="timeline__item">
-                  <h3 class="timeline__title">Graduated High School</h3>
+                    <h3 class="timeline__title">Pass Rail ENSSAT</h3>
+                    <p class="timeline-description">Obtention d'une place réservée a l'ENSSAT après la fin de mon BUT dans le cadre du programme Pass Rail</p>
+                    <img class="timeline-image" src="./images/ENSSAT Lannion.png" alt="l'image ne s'affiche pas"></img>
                 </div>
-                
-                <h2 class="timeline__item timeline__item--year">2004</h2>
-                
+
                 <div class="timeline__item">
-                  <h3 class="timeline__title">Started at Fox Valley Technical College (FVTC) in an Electrical Engineering program</h3>
-                </div>
-                
-                <h2 class="timeline__item timeline__item--year">2006</h2>
-                
-                <div class="timeline__item">
-                  <h3 class="timeline__title">Changed at FVTC to Web Design & Development program</h3>
-                </div>
-                
-                <h2 class="timeline__item timeline__item--year">2007</h2>
-                
-                <div class="timeline__item">
-                  <h3 class="timeline__title">Web Design Internship</h3>
-                  <p class="timeline__blurb">started internship at company 1.</p>
-                </div>
-                
-                <h2 class="timeline__item timeline__item--year">2008</h2>
-                
-                <div class="timeline__item">
-                  <h3 class="timeline__title">IT Internship</h3>
-                  <p class="timeline__blurb">Started internship at company 2</p>
+                    <h3 class="timeline__title">Gardien de nuit</h3>
+                    <p class="timeline-description">Travail saisonier en tant que gardien de nuit au sein d'un camping</p>
+                    <img class="timeline-image" src="./images/gardien.jpg" alt="l'image ne s'affiche pas"></img>
                 </div>
                 
                 <div class="timeline__item">
-                  <h3 class="timeline__title">Got Married</h3>
+                    <h3 class="timeline__title">Orange</h3>
+                    <p class="timeline-description">Début de mon alternance en tant que développeur web au sein du groupe Orange Business sur le site Rennais</p>
+                    <img class="timeline-image" src="./images/Orange_logo.png" alt="l'image ne s'affiche pas"></img>
                 </div>
+                
+                <h2 class="timeline__item timeline__item--year">2024</h2>
                 
                 <div class="timeline__item">
-                  <h3 class="timeline__title">Application Engineer</h3>
-                  <p class="timeline__blurb">Started web design/dev job at company 2.</p>
+                    <h3 class="timeline__title">3ème année BUT</h3>
+                    <p class="timeline-description">Rentrée en troisième et dernière année de BUT informatique à l'IUT de Lannion</p>
+                    <img class="timeline-image" src="./images/logo-iut-lannion-dark.png" alt="l'image ne s'affiche pas"></img>
                 </div>
                 
-                <h2 class="timeline__item timeline__item--year">2012</h2>
+                <h2 class="timeline__item timeline__item--year">2025</h2>
                 
                 <div class="timeline__item">
-                  <h3 class="timeline__title">First Child</h3>
-                  <p class="timeline__blurb">Spouse and I welcomed our first daughter.</p>
+                    <h3 class="timeline__title">Fin d'alternance Orange</h3>
+                    <p class="timeline-description">Fin de mon alternance en tant que développeur web au sein du groupe Orange Business sur le site Rennais et probable signature d'un nouveau contrat</p>
+                    <img class="timeline-image" src="./images/Orange_logo.png" alt="l'image ne s'affiche pas"></img>
                 </div>
-                
-                <h2 class="timeline__item timeline__item--year">2015</h2>
-                
+
                 <div class="timeline__item">
-                  <h3 class="timeline__title">Second Child</h3>
-                  <p class="timeline__blurb">Spouse and I welcomed our second daughter.</p>
+                    <h3 class="timeline__title">Ecole d'ingénieur</h3>
+                    <p class="timeline-description">Possible entrée en école d'ingénieur informatique</p>
+                    <img class="timeline-image" src="./images/ENSSAT Lannion.png" alt="l'image ne s'affiche pas"></img>
                 </div>
+
+                <h2 class="timeline__item timeline__item--year">2026</h2>
                 
-                <h2 class="timeline__item timeline__item--year">2016</h2>
-                
-                <div class="timeline__item">
-                  <h3 class="timeline__title">Lead Application Engineer</h3>
-                  <p class="timeline__blurb">Promotion to mid-level role.</p>
-                </div>
-                
-                <h2 class="timeline__item timeline__item--year">2018</h2>
-                
-                <div class="timeline__item">
-                  <h3 class="timeline__title">Aerial/Circus Arts</h3>
-                  <p class="timeline__blurb">Started taking classes to learn aerial silks, hoop, and hammock.</p>
-                </div>
-                
-                <h2 class="timeline__item timeline__item--year">2019</h2>
                 
               </div>
         </section>
@@ -182,36 +128,50 @@
                 <section>
                     <h3>Systèmes</h3>
                     <div class="tools">
-                        <img src="./images/bash.png" alt="Logo Bash">
-                        <img src="./images/Moby-logo.png" alt="Logo Docker">
-                        <img src="./images/Git-Logo-2Color.png" alt="Logo Git">
-                        <img src="./images/phpmyadmin-icon-5605.png" alt="Logo PhpMyAdmin">
+                        <a href="https://fr.wikipedia.org/wiki/Bourne-Again_shell"><img src="./images/bash.png" alt="Logo Bash"></a>
+                        <a href="https://www.docker.com/"><img src="./images/Moby-logo.png" alt="Logo Docker"></a>
+                        <a href="https://git-scm.com/"><img src="./images/Git-Logo-2Color.png" alt="Logo Git"></a>
+                        <a href="https://github.com/"><img src="./images/github-mark.png" alt="Logo GitHub"></a>
+                        <a href="https://about.gitlab.com/"><img src="./images/gitlab-logo-500.png" alt="Logo GitLab"></a>
+                        <a href="https://www.virtualbox.org/"><img src="./images/Virtualbox_logo.png" alt="Logo Virtualbox"></a>
+                        <a herf="https://code.visualstudio.com/"><img src="./images/vscode.png" alt="Logo VsCode"></a>
+                        <a herf="https://www.android.com/"><img src="./images/android.png" alt="Logo Android"></a>
+                        
+                        
                     </div>
                 </section>
                 <section>
                     <h3>Front-end</h3>
                     <div class="tools">
-                        <img src="./images/HTML.png" alt="Logo HTML">
-                        <img src="./images/CSS.png" alt="Logo CSS">
-                        <img src="./images/javascript-39400.png" alt="Logo JavaScript">
+                        <a href="https://developer.mozilla.org/fr/docs/Web/HTML"><img src="./images/HTML.png" alt="Logo HTML"></a>
+                        <a href="https://developer.mozilla.org/fr/docs/Web/CSS"><img src="./images/CSS.png" alt="Logo CSS"></a>
+                        <a href="https://developer.mozilla.org/fr/docs/Web/JavaScript"><img src="./images/javascript-39400.png" alt="Logo JavaScript"></a>
+                        <a href="https://fr.react.dev/"><img src="./images/react.png" alt="Logo React"></a>
+                        
+                        
                     </div>
                 </section>
                 <section>
                     <h3>Back-end</h3>
                     <div class="tools">
-                        <img src="./images/new-php-logo.png" alt="Logo PHP">
-                        <img src="./images/python.png" alt="Logo Python">
-                        <img src="./images/Java.png" alt="Logo Java">
-                        <img src="./images/C.png" alt="Logo C">
-                        <img src="./images/PostgreSQL_logo.png" alt="Logo PostgreSQL">
+                        <a href="https://www.php.net/"><img src="./images/new-php-logo.png" alt="Logo PHP"></a>
+                        <a href="https://www.python.org/"><img src="./images/python.png" alt="Logo Python"></a>
+                        <a href="https://www.java.com/fr/"><img src="./images/Java.png" alt="Logo Java"></a>
+                        <a href="https://fr.wikipedia.org/wiki/C_(langage)"><img src="./images/C.png" alt="Logo C"></a>
+                        <a href="https://www.postgresql.org/"><img src="./images/PostgreSQL_logo.3colors.120x120.png" alt="Logo PostgreSQL"></a>
+                        <a href="https://www.mysql.com/fr/"><img src="./images/mysql.png" alt="Logo MySQL"></a>
+                        <a href="https://www.phpmyadmin.net/"><img src="./images/phpmyadmin-icon-5605.png" alt="Logo PhpMyAdmin"></a>
+                        <a href="https://symfony.com/"><img src="./images/icons8-symfony-96.png" alt="Logo Symfony"></a>
+                        <a href="https://www.postman.com/"><img src="./images/postman-icon.png" alt="Logo Postman"></a>
+                        <a href="https://www.elastic.co/fr/elastic-stack"><img src="./images/elastic.png" alt="Logo elastic"></a>
                     </div>
                 </section>
             </div>
         </section>
 
         <section class="competence_iut_container" id="competence">
-            <h2>Mes Compétences</h2>
-            <p>Le <strong>programme de l'IUT</strong> nous permet de développer <strong>6 compétences</strong> grâce à différents <strong>projets</strong>.</p>
+            <h2>Mes projets</h2>
+            <p>Au cour de mon parcour j'ai eu l'occasion de réaliser divers projets que l'on peut associer au 6 compétences du programme du BUT informatique.</p>
             
             <a class="competence-page-button" href="./competences.html">
                 <button class="pulse">Découvrir les Projets</button>
