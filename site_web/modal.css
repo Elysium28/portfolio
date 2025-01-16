@@ -55,7 +55,9 @@
     font-size: 1em;
     line-height: 1.6;
     margin-bottom: 15px;
-    max-width: 25em;
+    max-width: 100%;
+    align-self: center;
+
 }
 
 #modal-date{
