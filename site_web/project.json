@@ -7,7 +7,7 @@
             "link": "SAE_puissance_4.zip",
             "image": "puissance4.png",
             "image_alt": "Image du projet Puissance4",
-            "description": "Création d'un jeu de puissance 4 en C dans le terminal, qui se joue à 2 joueurs."
+            "description": "Création d'un jeu de Puissance 4 en C dans le terminal, jouable à deux joueurs."
         },
         {
             "title": "Étude de marché",
@@ -25,7 +25,7 @@
             "link": "Camille_HACQUET_Matthew_LEO(1).zip",
             "image": "Cavalier_Euler_Tour10x10.svg.png",
             "image_alt": "Image du projet Tour du cavalier",
-            "description": "Création d'un programme Python de backtracking pour résoudre le problème du tour du cavalier, avec une interface graphique."
+            "description": "Création d'un programme Python utilisant le backtracking pour résoudre le problème du tour du cavalier, avec une interface graphique."
         },
         {
             "title": "Docker",
@@ -105,8 +105,8 @@
             "competence": "Réaliser une application Informatique, Optimiser des algorithmes, Administrer un environnement de production, Gérer une base de données complexe, Conduire la récolte des besoins clients et la mise en place d'un projet, Collaborer au sein d'une équipe informatique",
             "link": "https://github.com/Elysium28/SAE4",
             "image": "alhaiz_breizh.jpg",
-            "image_alt": "Image du projet Pokédex",
-            "description": "Création d'un site de location de logement de vacance en Bretagne (dans un style Airbnb)."
+            "image_alt": "Image du projet Alhaiz Breizh",
+            "description": "Création d'un site de location de logements de vacances en Bretagne (dans un style Airbnb)."
         },
         {
             "title": "Batterie de tests",
@@ -124,7 +124,7 @@
             "link": "none",
             "image": "Orange.png",
             "image_alt": "Image Orange",
-            "description": "Refonte total d'une application web de diffusion d'informations internes sur les télévisions des batiments d'Orange."
+            "description": "Refonte totale d'une application web de diffusion d'informations internes sur les télévisions des bâtiments d'Orange."
         },
         {
             "title": "Reporting",
@@ -142,7 +142,7 @@
             "link": "none",
             "image": "Orange.png",
             "image_alt": "Image Orange",
-            "description": "Mise en place d'un serveur de préproduction réserver à mon équipe au sein d'Orange."
+            "description": "Mise en place d'un serveur de préproduction réservé à mon équipe au sein d'Orange."
         },
         {
             "title": "Serious game CPAM",
@@ -151,7 +151,7 @@
             "link": "none",
             "image": "CPAM.png",
             "image_alt": "Image CPAM",
-            "description": "Dévellopement d'un sérious game en ligne a la demande de la CPAM. Le serious game consiste en cinq jeux mobiles qui permettent de faire découvrir aux jeunes leur droits a la santé en France."
+            "description": "Développement d'un serious game en ligne à la demande de la CPAM. Le serious game est composé de cinq jeux mobiles permettant de faire découvrir aux jeunes leurs droits à la santé en France."
         },
         {
             "title": "Dévellopement d'un assistant vocal personnel",
@@ -160,7 +160,7 @@
             "link": "none",
             "image": "amazon-alexa.gif",
             "image_alt": "Image assistant vocal",
-            "description": "Création from scratch en autonomie d'un assistant vocal personnel connecté à tout un sytème de domotique et qui peut être administré via une interface web sur un réseau privée. Des mise a jour sont régulièrement opérer pour le rendre plus performant comme l'ajout d'un LLM privée qui permet des réponse plus naturelle."
+            "description": "Création from scratch et en autonomie d'un assistant vocal personnel connecté à un système complet de domotique et administrable via une interface web sur un réseau privé. Des mises à jour sont régulièrement opérées pour le rendre plus performant, notamment l'ajout d'un LLM privé permettant des réponses plus naturelles."
         },
         {
             "title": "Automatisation de Lab",
@@ -169,7 +169,7 @@
             "link": "none",
             "image": "Orange.png",
             "image_alt": "Image Orange",
-            "description": "Dévellopement d'une solution d'automatisation du déploiement de machine virtuelle sur l'environement de laboratoire avec Proxmox et Terraform. En association avec le responsable de laboratoire de mon entité Orange Business."
+            "description": "Développement d'une solution d'automatisation du déploiement de machines virtuelles sur l'environnement de laboratoire avec Proxmox et Terraform, en association avec le responsable du laboratoire de mon entité Orange Business."
         },
         {
             "title": "Déploiement et traitement d'équipements de datacenter",
@@ -178,7 +178,7 @@
             "link": "none",
             "image": "Orange.png",
             "image_alt": "Image Orange",
-            "description": "Rackage, connection et démontage de serveur et déquipements réseaux dans des datacenters. Supervision de la fin cycle de vie des équipement (listage, remise a zéros, etc...)"
+            "description": "Rackage, connexion et démontage de serveurs et d'équipements réseau dans des datacenters. Supervision de la fin de cycle de vie des équipements (listage, remise à zéro, etc.)."
         }
     ]
 }
