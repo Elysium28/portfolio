@@ -23,3 +23,45 @@ window.addEventListener('scroll', function () {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Liens de la navbar
+const navLinks = document.querySelectorAll(".nav_bar_container a");
+
+// Titres + contact
+const sectionsToObserve = document.querySelectorAll(".title_chapter, #contact");
+
+const observer = new IntersectionObserver(
+  (entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        const id = entry.target.getAttribute("id");
+
+        navLinks.forEach((link) => {
+          link.classList.remove("active");
+          if (link.getAttribute("href") === "#" + id) {
+            link.classList.add("active");
+          }
+        });
+      }
+    });
+  },
+  {
+    // bande de détection assez large pour que le bas de page marche aussi
+    rootMargin: "-45% 0px -30% 0px",
+    threshold: 0
+  }
+);
+
+sectionsToObserve.forEach((section) => observer.observe(section));

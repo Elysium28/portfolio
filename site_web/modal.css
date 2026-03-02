@@ -109,3 +109,6 @@
     font-size: 1.2em;
     transition: color 0.3s;
 }
+.modal p, .modal li, .modal h4{
+    color: white;
+}

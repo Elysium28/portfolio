@@ -1,0 +1,587 @@
+
+/* =========================
+   BREAKPOINTS GLOBAUX
+   ========================= */
+
+/* Légère réduction de la taille globale sur petits écrans */
+@media (max-width: 1200px) {
+  html {
+    font-size: 15px;
+  }
+
+  .header section {
+    width: 70%;
+  }
+
+  .presentation-container,
+  .compétences-container,
+  .competence_iut_container {
+    max-width: 900px;
+  }
+
+  .tools img {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+/* =========================
+   TABLETTE (<= 992px)
+   ========================= */
+@media (max-width: 992px) {
+
+  /* HEADER : réduit un peu le bloc central */
+  .header section {
+    width: 80%;
+    padding: 15px;
+  }
+
+  .header h1 {
+    font-size: 3em;
+  }
+
+  .header h2 {
+    font-size: 1.7em;
+  }
+
+  .header img {
+    width: 30%;
+    margin-left: 2em;
+  }
+
+  /* NAVBAR plus aérée */
+  .nav_bar_container ul {
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .nav_bar_container li {
+    margin: 0 10px;
+  }
+
+  .nav_bar_container a {
+    font-size: 1rem;
+  }
+
+  /* Section présentation un peu plus large */
+  .presentation-container {
+    max-width: 85%;
+  }
+
+  /* Outils + compétences : meilleure largeur */
+  .compétences-container {
+    max-width: 95%;
+  }
+
+  /* GRID des projets (si pas défini ailleurs) */
+  .projects-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2rem;
+    padding: 0 20px;
+  }
+
+  .project img {
+    width: 100%;
+    border-radius: 10px;
+  }
+}
+
+/* =========================
+   MOBILE (<= 768px)
+   ========================= */
+@media (max-width: 768px) {
+
+  /* HEADER : on arrête le "position: fixed" du bloc central pour respirer */
+  .header {
+    height: auto;
+    padding: 130px 0 70px 0;
+  }
+
+  .header section {
+    position: static;
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .header section > div {
+    margin-right: 0;
+    align-items: center;
+  }
+
+  .header img {
+    width: 45%;
+    margin: 20px 0 0 0;
+  }
+
+  .header h1 {
+    font-size: 2.6em;
+  }
+
+  .header h2 {
+    font-size: 1.5em;
+  }
+
+  .scroll-downs {
+    bottom: 6%;
+  }
+
+  /* NAVBAR : compacte, scrollable si trop longue */
+  .nav_bar_container {
+    padding: 6px 0;
+  }
+
+  .nav_bar_container ul {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 0 10px;
+  }
+
+  .nav_bar_container li {
+    margin: 0 12px;
+    white-space: nowrap;
+  }
+
+  .nav_bar_container a {
+    font-size: 0.95rem;
+  }
+
+  /* MAIN : moins de padding latéral */
+  .main-content {
+    padding: 30px 10px 0 10px;
+  }
+
+  .presentation-container {
+    padding: 30px 15px;
+    max-width: 95%;
+  }
+
+  .presentation-container h1 {
+    font-size: 2.1em;
+  }
+
+  .presentation-container p {
+    font-size: 1rem;
+  }
+
+  .presentation-container a button.pulse {
+    width: 100%;
+    max-width: 260px;
+  }
+
+  /* TIMELINE : on évite les trop grandes marges */
+  .timeline-container {
+    padding: 50px 10px 70px 10px;
+  }
+
+  .timeline-container .timeline-title {
+    font-size: 2em;
+  }
+
+  .timeline__item,
+  .timeline__item--year {
+    margin: 0 auto;
+  }
+
+  .timeline-image {
+    max-width: 140px;
+  }
+
+  /* OUTILS : icônes + petites, mieux espacées */
+  .tools {
+    gap: 16px;
+  }
+
+  .tools img {
+    width: 60px;
+    height: 60px;
+    padding: 8px;
+  }
+
+  .compétences-container h2 {
+    font-size: 2.1em;
+  }
+
+  .compétences-container h3 {
+    font-size: 1.6em;
+  }
+
+  /* GRID des projets : 1 colonne sur mobile */
+  .projects-container {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 0 10px 40px 10px;
+  }
+
+  .project {
+    margin: 0 auto;
+    max-width: 420px;
+  }
+
+  /* BOUTON ORBITES : taille adaptée au mobile */
+  :root {
+    --btn-size: 130px;
+    --orbit-gap: 25px;
+  }
+
+  .button-wrapper {
+    margin: 70px auto 40px auto;
+  }
+
+  .pulse_rot {
+    font-size: 1rem;
+    text-align: center;
+    padding: 0 8px;
+  }
+
+  /* MODAL : full screen style */
+  .modal-content {
+    flex-direction: column;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .modal-data-container {
+    padding: 15px;
+  }
+
+  /* COMPETENCES IUT */
+  .competence_iut_container {
+    margin-top: 80px;
+    padding: 40px 15px;
+  }
+
+  .competence_iut_container h2 {
+    font-size: 2.1em;
+  }
+
+  .competence_iut_container h3 {
+    font-size: 1.6em;
+  }
+}
+
+/* =========================
+   PETITS TÉLÉS (<= 480px)
+   ========================= */
+@media (max-width: 480px) {
+
+  .header {
+    padding-top: 110px;
+  }
+
+  .header h1 {
+    font-size: 2.2em;
+  }
+
+  .header h2 {
+    font-size: 1.25em;
+  }
+
+  .header img {
+    width: 50%;
+  }
+
+  .nav_bar_container a {
+    font-size: 0.85rem;
+  }
+
+  .presentation-container {
+    padding: 25px 12px;
+  }
+
+  .presentation-container h1 {
+    font-size: 1.8em;
+  }
+
+  .presentation-container p {
+    font-size: 0.95rem;
+  }
+
+  .timeline-container .timeline-title {
+    font-size: 1.8em;
+  }
+
+  .tools img {
+    width: 52px;
+    height: 52px;
+    padding: 6px;
+  }
+
+  :root {
+    --btn-size: 115px;
+    --orbit-gap: 20px;
+  }
+
+  .pulse_rot {
+    font-size: 0.95rem;
+  }
+
+  footer p,
+  footer a {
+    font-size: 0.9rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ===================== */
+/* MODAL GLOBALE         */
+/* ===================== */
+
+.modal {
+    position: fixed;
+    inset: 0; /* top:0; right:0; bottom:0; left:0 */
+    display: none; /* affichée en JS: modal.style.display = 'flex'; */
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;           /* pour éviter de coller aux bords sur mobile */
+    z-index: 2000;
+}
+
+/* ===================== */
+/* CONTENU DE LA MODAL   */
+/* ===================== */
+
+.modal-content {
+    background: #111827;      /* gris très foncé moderne */
+    color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+
+    display: flex;
+    gap: 24px;
+
+    width: 100%;
+    max-width: 900px;        /* largeur max sur desktop */
+    max-height: 90vh;        /* ne dépasse jamais la hauteur de l'écran */
+    padding: 24px;
+
+    overflow-y: auto;        /* si le contenu est long, on scrolle dans la modale */
+}
+
+/* Image du projet dans la modale */
+.modal-content img,
+#modal-image {
+    width: 40%;
+    max-width: 350px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+/* Texte à droite de l'image */
+.modal-data-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.modal-data-container h2 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 1.6rem;
+}
+
+.modal-data-container p {
+    margin: 4px 0;
+    line-height: 1.4;
+}
+
+.modal-competence-container ul {
+    padding-left: 18px;
+    margin-top: 6px;
+}
+
+/* Lien "Voir le projet" */
+.modal-link-container a {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* ===================== */
+/* RESPONSIVE TABLETTE   */
+/* ===================== */
+
+@media (max-width: 900px) {
+    .modal-content {
+        max-width: 95vw;
+        padding: 20px;
+        gap: 16px;
+    }
+
+    .modal-content img,
+    #modal-image {
+        width: 45%;
+    }
+}
+
+/* ===================== */
+/* RESPONSIVE MOBILE     */
+/* ===================== */
+
+@media (max-width: 768px) {
+    .modal {
+        padding: 12px; /* un peu moins de padding global */
+    }
+
+    .modal-content {
+        flex-direction: column;  /* image au-dessus, texte en dessous */
+        max-width: 100%;
+        max-height: 95vh;
+        padding: 16px;
+    }
+
+    .modal-content img,
+    #modal-image {
+        width: 100%;
+        max-width: 100%;
+        max-height: 260px;
+        object-fit: contain; /* garde l'image entière visible */
+    }
+}
+
+/* ultra petit écran */
+@media (max-width: 480px) {
+    .modal-content {
+        border-radius: 12px;
+        padding: 12px;
+    }
+
+    .modal-data-container h2 {
+        font-size: 1.4rem;
+    }
+
+    .modal-data-container p {
+        font-size: 0.95rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =========================
+   FIX HEADER MOBILE (anti-saut au scroll)
+   ========================= */
+@media (max-width: 768px) {
+
+  /* Header en fond, stable */
+  .header{
+    height: 100svh;           /* stable sur mobile (évite le jump vh) */
+    position: relative;
+    z-index: -1;
+  }
+
+  /* Le bloc central reste FIXE, centré stable */
+  .header section{
+    position: fixed;
+    top: 50svh;               /* stable contrairement à 50%/vh */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: min(92vw, 520px);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    will-change: transform;   /* plus fluide */
+  }
+
+  /* IMPORTANT : si la classe shrink s'ajoute, on empêche le “saut” */
+  .header.shrink section{
+    transform: translate(-50%, -50%); /* pas de scale sur mobile */
+    opacity: 1;
+  }
+
+
+  /* Le contenu passe au-dessus */
+  .nav_bar_container,
+  .main-content,
+  footer{
+    position: relative;
+    z-index: 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===== Scroll-down bien en bas sur mobile ===== */
+@media (max-width: 768px) {
+
+  .scroll-downs {
+    align-items: flex-end;
+  }
+}

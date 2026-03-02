@@ -1,59 +1,12 @@
-main{
-    background: linear-gradient(to bottom, #2a2a2a, rgba(42, 0, 59, 0.7), rgba(69, 0, 106, 0.5), rgba(93, 0, 160, 0.404), rgba(181, 113, 230, 0.3), rgba(240, 237, 241, 0.4),rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.6));
+
+
+
+.presentation-competence-container{
+    margin-top: 25px;
 }
 
-body {
-    font-family: 'Quicksand', sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #1e1e1e;
-    color: #fff;
-}
 
-.nav_bar_container {
-    position: sticky;
-    top: 0;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.9);
-    z-index: 1000;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 10px 0;
-}
-
-.nav_bar_container ul {
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-.nav_bar_container li {
-    margin: 0 20px;
-}
-
-.nav_bar_container a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 1.2em;
-    transition: color 0.3s;
-}
-
-.nav_bar_container a:hover {
-    color: #ff4081;
-}
-
-.presentation-container {
-    text-align: center;
-    padding: 50px 20px;
-    background: linear-gradient(135deg, #2a2a2a, #1e1e1e);
-    border-radius: 15px;
-    margin: 20px auto;
-    max-width: 800px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-}
-
-.presentation-container h1 {
+.presentation-competence-container h1 {
     font-size: 2.5em;
     color: #ff4081;
     margin-bottom: 20px;
@@ -75,6 +28,12 @@ body {
     width: 300px;
     text-align: center;
     transition: transform 0.3s, box-shadow 0.3s;
+
+    border: 5px double transparent;
+
+    border-image-slice: 1;
+    
+    animation: gradientAnimation 4s infinite alternate ;
 }
 
 .project:hover {
@@ -99,23 +58,4 @@ body {
 .project p {
     font-size: 1em;
     line-height: 1.6;
-}
-
-footer {
-    background: #0f1f28;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-    
-}
-
-.footer-container a {
-    color: #ff4081;
-    text-decoration: none;
-    font-size: 1.2em;
-    transition: color 0.3s;
-}
-
-.footer-container a:hover {
-    color: #fff;
 }

@@ -1,0 +1,184 @@
+{
+    "projects": [
+        {
+            "title": "Puissance4",
+            "date": "2022-2023",
+            "competence": "Réaliser une application Informatique, Optimiser des algorithmes",
+            "link": "SAE_puissance_4.zip",
+            "image": "puissance4.png",
+            "image_alt": "Image du projet Puissance4",
+            "description": "Création d'un jeu de puissance 4 en C dans le terminal, qui se joue à 2 joueurs."
+        },
+        {
+            "title": "Étude de marché",
+            "date": "2022-2023",
+            "competence": "Réaliser une application Informatique, Gérer une base de données, Conduire la récolte des besoins clients",
+            "link": "none",
+            "image": "Logo_komikku.jpg",
+            "image_alt": "Image du projet Étude de marché",
+            "description": "Création d'une étude de marché en PHP et MySQL."
+        },
+        {
+            "title": "Tour du cavalier",
+            "date": "2022-2023",
+            "competence": "Optimiser des algorithmes, Collaborer au sein d'une équipe informatique",
+            "link": "Camille_HACQUET_Matthew_LEO(1).zip",
+            "image": "Cavalier_Euler_Tour10x10.svg.png",
+            "image_alt": "Image du projet Tour du cavalier",
+            "description": "Création d'un programme Python de backtracking pour résoudre le problème du tour du cavalier, avec une interface graphique."
+        },
+        {
+            "title": "Docker",
+            "date": "2022-2023",
+            "competence": "Administrer et mettre en place un environnement de travail, Collaborer au sein d'une équipe informatique",
+            "link": "html-to-pdf-php-final.zip",
+            "image": "Moby-logo.png",
+            "image_alt": "Image du projet Docker",
+            "description": "Découverte de Docker et du principe d'automatisation des systèmes."
+        },
+        {
+            "title": "Serveur Web",
+            "date": "2022-2023",
+            "competence": "Administrer et mettre en place un ennvironement de travail",
+            "link": "none",
+            "image": "pngtree-web-server-vector-icon-image_2289946.jpg",
+            "image_alt": "Image du projet Serveur Web",
+            "description": "Installation et configuration d'un serveur web avec Apache, PHP et MySQL."
+        },
+        {
+            "title": "Les Transmusicales",
+            "date": "2022-2023",
+            "competence": "Gérer une base de données, Conduire la récolte des besoins client, Collaborer au sein d'une équipe informatique",
+            "link": "none",
+            "image": "transmusicales-2016-artistes-decouverte.jpg",
+            "image_alt": "Image du projet Les Transmusicales",
+            "description": "Création d'une base de données PostgreSQL à partir d'un diagramme de classe UML."
+        },
+        {
+            "title": "Parcoursup",
+            "date": "2022-2023",
+            "competence": "Gérer une base de données, Conduire la récolte des besoins client",
+            "link": "none",
+            "image": "mesri_logo_parcoursup.jpg",
+            "image_alt": "Image du projet Parcoursup",
+            "description": "Création, exploitation et étude d'une base de données PostgreSQL à partir d'un diagramme de classe UML."
+        },
+        {
+            "title": "Sport KOH",
+            "date": "2022-2023",
+            "competence": "Réaliser une application Informatique, Conduire la récolte des besoins client, Collaborer au sein d'une équipe informatique",
+            "link": "sportKoh.zip",
+            "image": "index.png",
+            "image_alt": "Image du projet Sport KOH",
+            "description": "Création d'un site vitrine pour l'association sportive Sport KOH."
+        },
+        {
+            "title": "L'Hôtel du Cheval Blanc",
+            "date": "2022-2023",
+            "competence": "Réaliser une application Informatique, Optimiser des algorithmes, Gérer une base de données, Collaborer au sein d'une équipe informatique",
+            "link": "none",
+            "image": "hotel.PNG",
+            "image_alt": "Image du projet L'Hôtel du Cheval Blanc",
+            "description": "Création d'une application Java connectée à une API et une base de données, avec une interface JavaFX."
+        },
+        {
+            "title": "Team Building",
+            "date": "2022-2023",
+            "competence": "Conduire un projet social, Collaborer au sein d'une équipe",
+            "link": "Dossier_LEO_TEURROC_GOURVEST.pdf",
+            "image": "860378_988d2ba52fa749a3965d188508bf98d8~mv2.jpg",
+            "image_alt": "Image du projet Team Building",
+            "description": "Organisation d'un événement de team building pour l'entreprise Faucquert Architecte."
+        },
+        {
+            "title": "Pokédex",
+            "date": "2023-2024",
+            "competence": "Réaliser une application Informatique, Conduire la récolte des besoins client, Collaborer au sein d'une équipe informatique",
+            "link": "https://sukunaexe.github.io/Pokemon/",
+            "image": "300px-Poké_Ball_animé.png",
+            "image_alt": "Image du projet Pokédex",
+            "description": "Création d'un site web imitant le fonctionnement du pokédex de l'univers Pokémon."
+        },
+        {
+            "title": "Alhaiz breizh",
+            "date": "2023-2024",
+            "competence": "Réaliser une application Informatique, Optimiser des algorithmes, Administrer un environnement de production, Gérer une base de données complexe, Conduire la récolte des besoins clients et la mise en place d'un projet, Collaborer au sein d'une équipe informatique",
+            "link": "https://github.com/Elysium28/SAE4",
+            "image": "alhaiz_breizh.jpg",
+            "image_alt": "Image du projet Pokédex",
+            "description": "Création d'un site de location de logement de vacance en Bretagne (dans un style Airbnb)."
+        },
+        {
+            "title": "Batterie de tests",
+            "date": "2023-2024",
+            "competence": "Optimiser des algorithmes, Gérer une base de données complexe, Collaborer au sein d'une équipe informatique",
+            "link": "none",
+            "image": "Orange.png",
+            "image_alt": "Image Orange",
+            "description": "Création d'une batterie de tests complète pour une application web d'Orange."
+        },
+        {
+            "title": "Screen",
+            "date": "2023-2025",
+            "competence": "Réaliser une application Informatique, Optimiser des algorithmes, Administrer un ennvironement de production, Gérer une base de données complexe, Conduire la récolte des besoins client et la mise en place d'un projet, Collaborer au sein d'une équipe informatique",
+            "link": "none",
+            "image": "Orange.png",
+            "image_alt": "Image Orange",
+            "description": "Refonte total d'une application web de diffusion d'informations internes sur les télévisions des batiments d'Orange."
+        },
+        {
+            "title": "Reporting",
+            "date": "2024-2025",
+            "competence": "Optimiser des algorithmes, Administrer un environnement de production, Gérer une base de données complexe, Conduire la récolte des besoins client",
+            "link": "none",
+            "image": "Orange.png",
+            "image_alt": "Image Orange",
+            "description": "Mise en place d'un environnement de test iso-prod complet pour les équipes de reporting."
+        },
+        {
+            "title": "Serveur",
+            "date": "2024-2025",
+            "competence": "Administrer un environement de préproduction, Conduire la récolte des besoins client",
+            "link": "none",
+            "image": "Orange.png",
+            "image_alt": "Image Orange",
+            "description": "Mise en place d'un serveur de préproduction réserver à mon équipe au sein d'Orange."
+        },
+        {
+            "title": "Serious game CPAM",
+            "date": "2024-2025",
+            "competence": "Administrer un environement de préproduction, Réaliser une application Informatique, Optimiser des algorithmes, Gérer une base de données complexe, Conduire la récolte des besoins client, Collaborer au sein d'une équipe informatique",
+            "link": "none",
+            "image": "CPAM.png",
+            "image_alt": "Image CPAM",
+            "description": "Dévellopement d'un sérious game en ligne a la demande de la CPAM. Le serious game consiste en cinq jeux mobiles qui permettent de faire découvrir aux jeunes leur droits a la santé en France."
+        },
+        {
+            "title": "Dévellopement d'un assistant vocal personnel",
+            "date": "2022-2025",
+            "competence": "Administrer un environement de préproduction, Administrer un environnement de production, Réaliser une application Informatique, Optimiser des algorithmes, Gérer une base de données complexe, Conduire un projet de système embarqué",
+            "link": "none",
+            "image": "amazon-alexa.gif",
+            "image_alt": "Image assistant vocal",
+            "description": "Création from scratch en autonomie d'un assistant vocal personnel connecté à tout un sytème de domotique et qui peut être administré via une interface web sur un réseau privée. Des mise a jour sont régulièrement opérer pour le rendre plus performant comme l'ajout d'un LLM privée qui permet des réponse plus naturelle."
+        },
+        {
+            "title": "Automatisation de Lab",
+            "date": "2025-2026",
+            "competence": "Administrer un environement de préproduction, Administrer un environnement de production, Optimiser des algorithmes, Conduire la récolte des besoins client, Collaborer au sein d'une équipe informatique",
+            "link": "none",
+            "image": "Orange.png",
+            "image_alt": "Image Orange",
+            "description": "Dévellopement d'une solution d'automatisation du déploiement de machine virtuelle sur l'environement de laboratoire avec Proxmox et Terraform. En association avec le responsable de laboratoire de mon entité Orange Business."
+        },
+        {
+            "title": "Déploiement et traitement d'équipements de datacenter",
+            "date": "2025-2026",
+            "competence": "Administrer un environement de préproduction, Administrer un environnement de production, Conduire la récolte des besoins client, Collaborer au sein d'une équipe informatique",
+            "link": "none",
+            "image": "Orange.png",
+            "image_alt": "Image Orange",
+            "description": "Rackage, connection et démontage de serveur et déquipements réseaux dans des datacenters. Supervision de la fin cycle de vie des équipement (listage, remise a zéros, etc...)"
+        }
+    ]
+}

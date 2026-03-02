@@ -1,4 +1,5 @@
-// Sélection des éléments
+function initEventModal () {
+    // Sélection des éléments
 const modal = document.getElementById('modal');
 const projects = document.querySelectorAll('.project');
 const closeModalBtn = document.getElementById('closeModalBtn');
@@ -39,6 +40,9 @@ projects.forEach((project) => {
 
     });
 });
+}
+
+
 
 
 // Fermer la modale si on clique à l'extérieur du contenu

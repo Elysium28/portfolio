@@ -1,4 +1,16 @@
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
 @font-face {
     font-family: 'quicksand-regular';
     src: url('./font/quicksand-regular-webfont.woff2') format('woff2'),
@@ -17,6 +29,7 @@
 body{
   margin: auto 0;
   margin-bottom: 0;
+  background-color: #2a2a2a;
 }
 
 
@@ -442,7 +455,7 @@ main {
 
 
 
-.presentation-container h1 {
+.title_chapter {
   font-size: 2.5em;
   margin-bottom: 20px;
   color: #ff4081; /* Couleur du titre pour le faire ressortir */
@@ -535,7 +548,8 @@ main {
 .timeline-container {
   text-align: center;
   padding: 90px 20px;
-  background: linear-gradient(to bottom, #2a2a2a, rgba(42, 0, 59, 0.7), rgba(69, 0, 106, 0.5), rgba(93, 0, 160, 0.404), rgba(181, 113, 230, 0.3), rgba(240, 237, 241, 0.4));
+  /*background: linear-gradient(to bottom, #2a2a2a, rgba(42, 0, 59, 0.7), rgba(69, 0, 106, 0.5), rgba(93, 0, 160, 0.404), rgba(181, 113, 230, 0.3), rgba(240, 237, 241, 0.4));*/
+  background: linear-gradient(to bottom, #2a2a2a, rgba(42, 0, 59, 0.7), rgba(70, 0, 105, 0.5), rgba(108, 0, 154, 0.404), rgba(20, 1, 168, 0.3), rgba(11, 0, 159, 0.4));
   color: #fff;
   max-width: 100%;
   position: relative;
@@ -546,7 +560,7 @@ main {
 .timeline-container .timeline-title {
   font-size: 2.5em;
   margin-bottom: 20px;
-  color: #f06493; 
+  color: #ff4081; 
 }
 
 
@@ -690,7 +704,7 @@ main {
   
 .tools-competences-container{
   width: 100%;
-  background: linear-gradient(to bottom, rgba(240, 237, 241, 0.4), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.6));
+  background: linear-gradient(to bottom, rgba(11, 0, 159, 0.4), rgba(62, 50, 236, 0.4), rgba(87, 203, 246, 0.619), rgba(41, 233, 223, 0.652), rgba(214, 254, 248, 0.545), rgba(236, 248, 247, 0.818));
   padding-bottom: 80px;
 }
  
@@ -701,20 +715,38 @@ main {
 
 .compétences-container {
   padding: 50px 20px;
-  background: linear-gradient(135deg, #1e1e1e, #2a2a2a); /* Fond dégradé pour un effet moderne */
+  /*background: linear-gradient(135deg, #1e1e1e, #2a2a2a);*/ /* Fond dégradé pour un effet moderne */
   color: #fff; /* Couleur du texte en blanc pour un meilleur contraste */
   text-align: center;
-  border-radius: 15px; /* Coins arrondis */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4); /* Ajout d'une ombre pour un effet de profondeur */
+  border-radius: 50px; /* Coins arrondis */
+  /*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);*/ /* Ajout d'une ombre pour un effet de profondeur */
   margin: 0 auto;
   max-width: 1200px; /* Limite la largeur maximale pour une meilleure lisibilité */
+
+  border-radius: 50px; /* Coins arrondis */
+
+  
+}
+
+.tools-container section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .compétences-container h2 {
   font-size: 2.5em;
+  padding-top: 20px;
+  padding-bottom: 20px;
   margin-bottom: 30px;
   color: #ff4081; /* Couleur du titre pour le faire ressortir */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Ajout d'une ombre au texte */
+  border: 5px double transparent;
+
+  border-image-slice: 1;
+    
+    animation: gradientAnimation 2s infinite alternate ;
+
 }
 
 .compétences-container h3 {
@@ -722,6 +754,9 @@ main {
   margin-bottom: 20px;
   color: #f06493; /* Couleur des sous-titres */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Ajout d'une ombre au texte */
+  background-color: #2a2a2a;
+  padding: 10px 20px;
+  border-radius: 10px;
 }
 
 .tools {
@@ -804,4 +839,177 @@ footer {
 
 .footer-container a:hover {
     color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:root {
+    --btn-size: 150px;     /* Taille du bouton */
+    --orbit-gap: 35px;     /* Espace entre chaque orbite */
+}
+
+.pulse_rot {
+    border: none;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    z-index: 10;
+    font-size: large;
+
+    /* rond */
+    width: var(--btn-size);
+    height: var(--btn-size);
+    border-radius: 50%;
+    padding: 0;
+
+    /* animations existantes */
+    animation: pulse-animation 3s infinite,
+               gradientButtonAnimation 2s infinite;
+}
+
+/* --- CONTAINER --- */
+.button-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 100px auto 50px auto;
+    width: fit-content;
+}
+
+/* ORBITES AUTO-ADAPTÉES */
+.orbit {
+    position: absolute;
+    border: 3px solid #ff6a00;
+    border-color: #ff6a00 transparent transparent transparent;
+    border-radius: 50%;
+    opacity: 0.8;
+    animation: spin 4s linear infinite;
+}
+
+/* Orbit 1 = bouton + 20px */
+.orbit1 {
+    width: calc(var(--btn-size) + var(--orbit-gap));
+    height: calc(var(--btn-size) + var(--orbit-gap));
+    animation-duration: 2s;
+}
+
+/* Orbit 2 = bouton + 60px */
+.orbit2 {
+    width: calc(var(--btn-size) + var(--orbit-gap) * 3);
+    height: calc(var(--btn-size) + var(--orbit-gap) * 3);
+    animation-duration: 4s;
+    animation-direction: reverse;
+}
+
+/* Orbit 3 = bouton + 100px */
+.orbit3 {
+    width: calc(var(--btn-size) + var(--orbit-gap) * 5);
+    height: calc(var(--btn-size) + var(--orbit-gap) * 5);
+    animation-duration: 6s;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* === Soulignement animé navbar === */
+
+.nav_bar_container a {
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.nav_bar_container a::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 0%;
+  height: 3px;
+  background: linear-gradient(90deg, #ff4081, #7b1fa2);
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+  border-radius: 10px;
+}
+
+.nav_bar_container a:hover::after,
+.nav_bar_container a.active::after {
+  width: 100%;
 }
