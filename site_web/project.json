@@ -179,6 +179,15 @@
             "image": "Orange.png",
             "image_alt": "Image Orange",
             "description": "Rackage, connexion et démontage de serveurs et d'équipements réseau dans des datacenters. Supervision de la fin de cycle de vie des équipements (listage, remise à zéro, etc.)."
+        },
+        {
+            "title": "Création d’un ordinateur de bord pour une Peugeot 107",
+            "date": "2026",
+            "competence": "Administrer un environnement de production, Optimiser des algorithmes, Réaliser une application Informatique, Conduire un projet de système embarqué",
+            "link": "none",
+            "image": "peugot-107.webp",
+            "image_alt": "Image Peugot",
+            "description": "Création d’un ordinateur de bord complet à partir d’une Raspberry Pi. Connexion avec smartphone via Bluetooth et Android Auto. Ajout d’un écran tactile, d’un encodeur rotatif et de boutons. Usinage des pièces pour une installation dans la Peugeot 107. Ajout d’un assistant vocal personnel."
         }
     ]
 }
