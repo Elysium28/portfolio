@@ -5,7 +5,7 @@
             "date": "2022-2023",
             "competence": "Réaliser une application Informatique, Optimiser des algorithmes",
             "link": "SAE_puissance_4.zip",
-            "image": "puissance4.png",
+            "image": "puissance4.avif",
             "image_alt": "Image du projet Puissance4",
             "description": "Création d'un jeu de Puissance 4 en C dans le terminal, jouable à deux joueurs."
         },
@@ -14,7 +14,7 @@
             "date": "2022-2023",
             "competence": "Réaliser une application Informatique, Gérer une base de données, Conduire la récolte des besoins clients",
             "link": "none",
-            "image": "Logo_komikku.jpg",
+            "image": "Logo_komikku.avif",
             "image_alt": "Image du projet Étude de marché",
             "description": "Création d'une étude de marché en PHP et MySQL."
         },
@@ -23,7 +23,7 @@
             "date": "2022-2023",
             "competence": "Optimiser des algorithmes, Collaborer au sein d'une équipe informatique",
             "link": "Camille_HACQUET_Matthew_LEO(1).zip",
-            "image": "Cavalier_Euler_Tour10x10.svg.png",
+            "image": "Cavalier_Euler_Tour10x10.avif",
             "image_alt": "Image du projet Tour du cavalier",
             "description": "Création d'un programme Python utilisant le backtracking pour résoudre le problème du tour du cavalier, avec une interface graphique."
         },
@@ -32,7 +32,7 @@
             "date": "2022-2023",
             "competence": "Administrer et mettre en place un environnement de travail, Collaborer au sein d'une équipe informatique",
             "link": "html-to-pdf-php-final.zip",
-            "image": "Moby-logo.png",
+            "image": "Moby-logo.avif",
             "image_alt": "Image du projet Docker",
             "description": "Découverte de Docker et du principe d'automatisation des systèmes."
         },
@@ -41,7 +41,7 @@
             "date": "2022-2023",
             "competence": "Administrer et mettre en place un ennvironement de travail",
             "link": "none",
-            "image": "pngtree-web-server-vector-icon-image_2289946.jpg",
+            "image": "pngtree-web-server-vector-icon-image_2289946.avif",
             "image_alt": "Image du projet Serveur Web",
             "description": "Installation et configuration d'un serveur web avec Apache, PHP et MySQL."
         },
@@ -50,7 +50,7 @@
             "date": "2022-2023",
             "competence": "Gérer une base de données, Conduire la récolte des besoins client, Collaborer au sein d'une équipe informatique",
             "link": "none",
-            "image": "transmusicales-2016-artistes-decouverte.jpg",
+            "image": "transmusicales-2016-artistes-decouverte.avif",
             "image_alt": "Image du projet Les Transmusicales",
             "description": "Création d'une base de données PostgreSQL à partir d'un diagramme de classe UML."
         },
@@ -59,7 +59,7 @@
             "date": "2022-2023",
             "competence": "Gérer une base de données, Conduire la récolte des besoins client",
             "link": "none",
-            "image": "mesri_logo_parcoursup.jpg",
+            "image": "mesri_logo_parcoursup.avif",
             "image_alt": "Image du projet Parcoursup",
             "description": "Création, exploitation et étude d'une base de données PostgreSQL à partir d'un diagramme de classe UML."
         },
@@ -68,7 +68,7 @@
             "date": "2022-2023",
             "competence": "Réaliser une application Informatique, Conduire la récolte des besoins client, Collaborer au sein d'une équipe informatique",
             "link": "sportKoh.zip",
-            "image": "index.png",
+            "image": "index.avif",
             "image_alt": "Image du projet Sport KOH",
             "description": "Création d'un site vitrine pour l'association sportive Sport KOH."
         },
@@ -77,7 +77,7 @@
             "date": "2022-2023",
             "competence": "Réaliser une application Informatique, Optimiser des algorithmes, Gérer une base de données, Collaborer au sein d'une équipe informatique",
             "link": "none",
-            "image": "hotel.PNG",
+            "image": "hotel.avif",
             "image_alt": "Image du projet L'Hôtel du Cheval Blanc",
             "description": "Création d'une application Java connectée à une API et une base de données, avec une interface JavaFX."
         },
@@ -86,7 +86,7 @@
             "date": "2022-2023",
             "competence": "Conduire un projet social, Collaborer au sein d'une équipe",
             "link": "Dossier_LEO_TEURROC_GOURVEST.pdf",
-            "image": "860378_988d2ba52fa749a3965d188508bf98d8~mv2.jpg",
+            "image": "860378_988d2ba52fa749a3965d188508bf98d8~mv2.avif",
             "image_alt": "Image du projet Team Building",
             "description": "Organisation d'un événement de team building pour l'entreprise Faucquert Architecte."
         },
@@ -95,7 +95,7 @@
             "date": "2023-2024",
             "competence": "Réaliser une application Informatique, Conduire la récolte des besoins client, Collaborer au sein d'une équipe informatique",
             "link": "https://sukunaexe.github.io/Pokemon/",
-            "image": "300px-Poké_Ball_animé.png",
+            "image": "300px-Poké_Ball_animé.avif",
             "image_alt": "Image du projet Pokédex",
             "description": "Création d'un site web imitant le fonctionnement du pokédex de l'univers Pokémon."
         },
@@ -104,7 +104,7 @@
             "date": "2023-2024",
             "competence": "Réaliser une application Informatique, Optimiser des algorithmes, Administrer un environnement de production, Gérer une base de données complexe, Conduire la récolte des besoins clients et la mise en place d'un projet, Collaborer au sein d'une équipe informatique",
             "link": "https://github.com/Elysium28/SAE4",
-            "image": "alhaiz_breizh.jpg",
+            "image": "alhaiz_breizh.avif",
             "image_alt": "Image du projet Alhaiz Breizh",
             "description": "Création d'un site de location de logements de vacances en Bretagne (dans un style Airbnb)."
         },
@@ -113,7 +113,7 @@
             "date": "2023-2024",
             "competence": "Optimiser des algorithmes, Gérer une base de données complexe, Collaborer au sein d'une équipe informatique",
             "link": "none",
-            "image": "Orange.png",
+            "image": "Orange.avif",
             "image_alt": "Image Orange",
             "description": "Création d'une batterie de tests complète pour une application web d'Orange."
         },
@@ -122,7 +122,7 @@
             "date": "2023-2025",
             "competence": "Réaliser une application Informatique, Optimiser des algorithmes, Administrer un ennvironement de production, Gérer une base de données complexe, Conduire la récolte des besoins client et la mise en place d'un projet, Collaborer au sein d'une équipe informatique",
             "link": "none",
-            "image": "Orange.png",
+            "image": "Orange.avif",
             "image_alt": "Image Orange",
             "description": "Refonte totale d'une application web de diffusion d'informations internes sur les télévisions des bâtiments d'Orange."
         },
@@ -131,7 +131,7 @@
             "date": "2024-2025",
             "competence": "Optimiser des algorithmes, Administrer un environnement de production, Gérer une base de données complexe, Conduire la récolte des besoins client",
             "link": "none",
-            "image": "Orange.png",
+            "image": "Orange.avif",
             "image_alt": "Image Orange",
             "description": "Mise en place d'un environnement de test iso-prod complet pour les équipes de reporting."
         },
@@ -140,7 +140,7 @@
             "date": "2024-2025",
             "competence": "Administrer un environement de préproduction, Conduire la récolte des besoins client",
             "link": "none",
-            "image": "Orange.png",
+            "image": "Orange.avif",
             "image_alt": "Image Orange",
             "description": "Mise en place d'un serveur de préproduction réservé à mon équipe au sein d'Orange."
         },
@@ -149,7 +149,7 @@
             "date": "2024-2025",
             "competence": "Administrer un environement de préproduction, Réaliser une application Informatique, Optimiser des algorithmes, Gérer une base de données complexe, Conduire la récolte des besoins client, Collaborer au sein d'une équipe informatique",
             "link": "none",
-            "image": "CPAM.png",
+            "image": "CPAM.avif",
             "image_alt": "Image CPAM",
             "description": "Développement d'un serious game en ligne à la demande de la CPAM. Le serious game est composé de cinq jeux mobiles permettant de faire découvrir aux jeunes leurs droits à la santé en France."
         },
@@ -167,7 +167,7 @@
             "date": "2025-2026",
             "competence": "Administrer un environement de préproduction, Administrer un environnement de production, Optimiser des algorithmes, Conduire la récolte des besoins client, Collaborer au sein d'une équipe informatique",
             "link": "none",
-            "image": "Orange.png",
+            "image": "Orange.avif",
             "image_alt": "Image Orange",
             "description": "Développement d'une solution d'automatisation du déploiement de machines virtuelles sur l'environnement de laboratoire avec Proxmox et Terraform, en association avec le responsable du laboratoire de mon entité Orange Business."
         },
@@ -176,7 +176,7 @@
             "date": "2025-2026",
             "competence": "Administrer un environement de préproduction, Administrer un environnement de production, Conduire la récolte des besoins client, Collaborer au sein d'une équipe informatique",
             "link": "none",
-            "image": "Orange.png",
+            "image": "Orange.avif",
             "image_alt": "Image Orange",
             "description": "Rackage, connexion et démontage de serveurs et d'équipements réseau dans des datacenters. Supervision de la fin de cycle de vie des équipements (listage, remise à zéro, etc.)."
         },
