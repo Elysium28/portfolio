@@ -1,0 +1,5 @@
+# robots.txt
+# Bloque tous les robots d'indexation
+
+User-agent: *
+Disallow: /
